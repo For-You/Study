@@ -2,123 +2,113 @@
 let questions = [
     {
     numb: 1,
-    question: "Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
-    answer: "DDL(Data Definition Language)",
+    question: "A loop becomes infinite loop if a condition never becomes ________",
+    answer: "False",
     options: [
-      "DML(Data Manipulation Language)",
-      "Query",
-      "Relational Schema",
-      "DDL(Data Definition Language)"
+      "False",
+      "True",
+      "True or NULL",
+      "NULL"
     ]
   },
     {
     numb: 2,
-    question: "Which of the following provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?",
-    answer: "DML(Data Manipulation Language)",
+    question: "Python programming language allows to use one loop inside another loop known as?",
+    answer: "Nested",
     options: [
-      "DML(Data Manipulation Language)",
-      "DDL(Data Definition Language)",
-      "Query",
-      "Relational Schema"
+      "switch",
+      "Nested",
+      "foreach",
+      "forall"
     ]
   },
     {
     numb: 3,
-    question: "Which one of the following given statements possibly contains the error?",
-    answer: "select empid where empid = 1009 and Lastname = 'GELLER';",
+    question: "Does python have switch case statement?",
+    answer : "No",
     options: [
-      "select * from emp where empid = 10003;",
-      "Inselect empid from emp where empid = 10006;",
-      "select empid from emp;",
-      "select empid where empid = 1009 and Lastname = 'GELLER';"
+      "No",
+      "Yes",
+      "Python has switch statement but we can not use it.",
+      "None of the mentioned"
       ]
       
   },
     {
     numb: 4,
-    question: "What do you mean by one to many relationships?",
-    answer: "One teacher can have many classes",
+    question: "Can we write if/else into one line in python?",
+    answer: "Yes",
     options: [
-      "One class may have many teachers",
-      "One teacher can have many classes",
-      "Many classes may have many teachers",
-      "Many teachers may have many classes"
+      "Yes",
+      "No",
+      "if/else not used in python",
+      "None"
     ]
   },
     {
     numb: 5,
-    question: "A Database Management System is a type of _________software.",
-    answer: "It is a type of system software",
+    question: "What is an iteration in programming?",
+    answer: "Steps counter",
     options: [
-      "It is a type of system software",
-      "It is a kind of application software",
-      "It is a kind of general software",
-      "Both A and C"
+      "Variable",
+      "Steps counter",
+      "Fixed value",
+      "Random value"
     ]
   },
    {
      numb: 6,
-     question: "The term 'FAT' is stands for_____",
-     answer: "File Allocation Table",
+     question: "What will be output of this expression: 'p'+'q' if '12'.isdigit() else 'r'+'s'",
+     answer: "pq",
      options: [
-       "File Allocation Tree",
-       "File Allocation Table",
-       "File Allocation Graph",
-       "All of the above"
+       "pq",
+       "rs",
+       "pqrs",
+       "pq12"
      ]
    },
     {
      numb: 7,
-     question: " Which of the following can be considered as the maximum size that is supported by FAT?",
-     answer: "4GB",
+     question: "The .......... construct allows to choose statements to be executed, depending upon the result of a condition.",
+     answer: "selection",
      options: [
-       "8GB",
-       "4GB",
-       "4TB",
-       "10TB"
+       "selection",
+       "repetition",
+       "sequence",
+       "flow"
      ]
    },
    {
      numb: 8,
-     question: "The term 'NTFS' refers to which one of the following?",
-     answer: "New Technology File System",
+     question: "string = 'abcdef'         While z in string:        print(z, end=' ')",
+     answer: "Error",
      options: [
-       "New Technology File System",
-       "New Tree File System",
-       "New Table type File System",
-       "Both A and C"
+       "a b c d e f",
+       "abcdef",
+       "Error",
+       "None of these"
      ]
    },
   {
      numb: 9,
-     question: "Which of the following can be considered as the maximum size that is supported by NTFS?",
-     answer: "4GB",
+     question: "string = 'abcdef'     z = 'a'     while z in string:         print(z, end = ' ')",
+     answer: "a a a a a....",
      options: [
-       "Super",
-       "Final",
-       "Static",
-       "Public"
+       "z z z z....",
+       "a a a a",
+       "aaaa....",
+       "a a a a a...."
      ]
    },
    {
      numb: 10,
-     question: "Which of the following is a correct way to create an object of class Test? ",
-     answer: "Test t=new Test();",
+     question: "string = 'abcd'   for z in range(string):     print(z)",
+     answer: "Error",
      options: [
-       "Test t=new Test();",
-       "Test t=new Test;",
-       "t=new Test();",
-       "new Test t;"
+       "abcd",
+       "a b c d",
+       "1 2 3 4 ",
+       "Error"
      ]
    },
-  
-
-  
-
-
-
-
-
-
-
 ];

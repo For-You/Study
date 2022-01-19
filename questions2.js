@@ -2,123 +2,113 @@
 let questions = [
     {
     numb: 1,
-    question: "#include<userdefined.h >Which of the following is the correct syntax to add the header file in the C++ program?",
-    answer: "Both A and B",
+    question: " In ordered linear search what are the best case and worst case complexity?",
+    answer: "O(1),O(n)",
     options: [
-      "#include < userdefined > ",
-      "#include \"userdefined.h\"",
-      "<include> \"userdefined.h\"",
-      "Both A and B"
+      "O(nlogn), O(logn)",
+      "O(logn), O(nlogn)",
+      "O(n),O(1)",
+      "O(1),O(n)"
     ]
   },
     {
     numb: 2,
-    question: "Which of the following is the correct syntax to print the message in C++ language?",
-    answer: "cout <<\"Hello world!\";",
+    question: "From the given statements which one is a disadvantage of linear search?",
+    answer: "Greater time complexities compared to other searching algorithms",
     options: [
-      "cout <<\"Hello world!\";",
-      "Cout << Hello world! ;",
-      "Out <<\"Hello world!;",
-      "None of the above"
+      "Requires more space",
+      "Greater time complexities compared to other searching algorithms",
+      "Not easy to understand",
+      "Not easy to implement"
     ]
   },
     {
     numb: 3,
-    question: "Which of the following is the correct identifier?",
-    answer: "VAR_123",
+    question: " Speed difference execution of linear search(recursive) vs linear search(iterative)?",
+    answer : "Linear search(iterative) is faster",
     options: [
-      "$var_name",
-      "VAR_123",
-      "varname@",
-      "None of the above"
+      "Both execute at same speed",
+      "Linear search(recursive) is faster",
+      "Linear search(iterative) is faster",
+      "Can't be said"
       ]
       
   },
     {
     numb: 4,
-    question: " Which of the following is the address operator?",
-    answer: "&",
+    question: "From the given following statements which one is not the application of binary search?",
+    answer: "To search in an unordered list",
     options: [
-      "@",
-      "#",
-      "&",
-      "%"
+      "To find the lower/upper bound in an ordered sequence",
+      "Union of intervals",
+      "Debugging",
+      "To search in an unordered list"
     ]
   },
     {
     numb: 5,
-    question: "Which of the following features must be supported by any programming language to become a pure object-oriented programming language?",
-    answer: "All of the above",
+    question: "In bubble sort and selection sort the number of iterations in the given array is arr = {3,4,5,2,1} will be:",
+    answer: "5 and 4",
     options: [
-      "Encapsulation",
-      "Inheritance",
-      "Polymorphism",
-      "All of the above"
+      "5 and 4",
+      "4 and 5",
+      "2 and 4",
+      "2 and 5"
     ]
   },
    {
      numb: 6,
-     question: "The programming language that has the ability to create new data types is called___.",
-     answer: "Extensible",
+     question: "External sorting algorithm?",
+     answer: "The algorithm that uses tape or disk during the sort",
      options: [
-       "Overloaded",
-       "Encapsulated",
-       "Reprehensible",
-       "Extensible"
+       "The algorithm that uses main memory during the sort",
+       "The algorithm that uses tape or disk during the sort",
+       "The algorithm that involves swapping",
+       "The algorithm that is considered 'in place'"
      ]
    },
     {
      numb: 7,
-     question: "Which of the following is the original creator of the C++ language?",
-     answer: "Bjarne Stroustrup",
+     question: "Find the suitable modulo value for the given pattern of the length-5 window.Pattern is : 4 3 2 5 0",
+     answer: "13",
      options: [
-       "Dennis Ritchie",
-       "Ken Thompson",
-       "Bjarne Stroustrup",
-       "Brian Kernighan"
+       "13",
+       "14",
+       "12",
+       "11"
      ]
    },
    {
      numb: 8,
-     question: "The C++ language is ______ object-oriented language.?",
-     answer: "Semi Object-oriented or Partial Object-oriented",
+     question: "True regarding Euclid’s algorithm is that it calculates",
+     answer: "GCD of two numbers",
      options: [
-       "Pure Object oriented",
-       "Not Object oriented",
-       "Semi Object-oriented or Partial Object-oriented",
-       "Both A and B"
+       "GCD of two numbers",
+       "GCD of more than three numbers",
+       "LCM of two numbers",
+       "LCM of more than two numbers"
      ]
    },
   {
      numb: 9,
-     question: "The subclass constructor uses the ———keyword to invoke the constructor of the superclass",
-     answer: "Super",
+     question: "Choose the correct recurrence relation used in Strassen’s algorithm is:",
+     answer: "7T(n/2) + Theta(n^2)",
      options: [
-       "Super",
-       "Final",
-       "Static",
-       "Public"
+       "7T(n/2) + Theta(n^2)",
+       "8T(n/2) + Theta(n^2)",
+       "7T(n/2) + 0(n^ 2)",
+       "8T(n/2) + 0(n^2)"
      ]
    },
    {
      numb: 10,
-     question: "Which of the following is a correct way to create an object of class Test? ",
-     answer: "Test t=new Test();",
+     question: "correct formula to generate random numbers between range(lower, upper) using rand() function:",
+     answer: "(rand()%(upper-lower+ 1)) + lower",
      options: [
-       "Test t=new Test();",
-       "Test t=new Test;",
-       "t=new Test();",
-       "new Test t;"
+       "rand() % (upper - lower)",
+       "rand() + lower",
+       "(rand()%(upper-lower)) + lower",
+       "(rand()%(upper-lower+ 1)) + lower"
      ]
    },
-  
-
-  
-
-
-
-
-
-
-
 ];

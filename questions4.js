@@ -2,123 +2,113 @@
 let questions = [
     {
     numb: 1,
-    question: " Which class acts as a root for all java classes?",
-    answer: "Object",
+    question: "Collection is a ______ data-type.",
+    answer: "Container",
     options: [
-      "String",
-      "Object",
-      "Throwable",
-      "None of these"
+      "Sequential",
+      "Container",
+      "Numeric",
+      "Integer"
     ]
   },
     {
     numb: 2,
-    question: "Using the concept of encapsulation security of the data is ---------------",
-    answer: "Ensured to some extent",
+    question: "Collection is _______!",
+    answer: "High-performance container data-type",
     options: [
-      "Ensured to some extent",
-      "Purely ensured",
-      "Not ensure",
-      "very low"
+      "High-performance container data-type",
+      "General purpose data-type",
+      "Low-performance container data-type",
+      "High-performance General purpose data-type"
     ]
   },
     {
     numb: 3,
-    question: "______is implemented as Combination of methods and attributes into a class",
-    answer: "Encapsulation",
+    question: "Counter function in the collection is used to :",
+    answer : "Counting hashable objects",
     options: [
-      "Encapsulation",
-      "Inheritance",
-      "Polymorphism",
-      "Abstraction"
+      "Counting hashable objects",
+      "Counting objects in the program",
+      "Counting iterator in code",
+      "Counting occurence of the element"
       ]
       
   },
     {
     numb: 4,
-    question: "Which of the following is not a kind of exception that is thrown by the JDBC method?",
-    answer: "Data Rounding",
+    question: " What does OrderDict() does:",
+    answer: "Remember the order entries which were added.",
     options: [
-      "Data Rounding",
-      "SQL Exception",
-      "SQL Rounding",
-      "Data Truncation"
+      "Remember the entries which were added",
+      "Remember the order entries which were added.",
+      "Remember the order entries which were deleted",
+      "Remember the entries which were deleted"
     ]
   },
     {
     numb: 5,
-    question: "How many objects can be referenced from the same variables?",
-    answer: "One at a time",
+    question: "Set = {1, 1, 4, 3, 2, 4}     print(Set)",
+    answer: "{1,4,3,2}",
     options: [
-      "One at a time",
-      "Many at a time",
-      "Many using array name",
-      "7 at max at same time"
+      "[1,2,3,4]",
+      "[1,4,3,2]",
+      "{1,4,3,2}",
+      "{1,1,4,3,2,4}"
     ]
   },
    {
      numb: 6,
-     question: "What is the range of boolean data type in java",
-     answer: "Not Applicable",
+     question: "Set ={30,40,50}  Set.update([10,20,30])  print(Set)",
+     answer: "{10,20,30,40,50}",
      options: [
-       "-128 to 127",
-       "0 to 65535",
-       "-32768 to 32767",
-       "Not Applicable"
+       "Set cannot be updated",
+       "{10,20,30,30,40,50}",
+       "{30,40,50,[10,20,30]}",
+       "{10,20,30,40,50}"
      ]
    },
     {
      numb: 7,
-     question: "Which data type is best suited to represent the logical values?",
-     answer: "Boolean",
+     question: "Set = {10, 20, 30, 40}      Set2 = Set.copy()           Set2.add(50)           print(Set)     ",
+     answer: "{10, 20, 30, 40}",
      options: [
-       "Boolean",
-       "String",
-       "Integer",
-       "Float"
+       "{10,20,30,40,50}",
+       "Elements cannot be added to Set",
+       "[10,20,30,40,50]",
+       "{10, 20, 30, 40}"
      ]
    },
    {
      numb: 8,
-     question: "Two methods with the same name but different argument types are known as?",
-     answer: "Method overloading",
+     question: "arr = list('123456')      arr[0] = arr[5] = 0         arr[3] = arr[-2]      print(arr)",
+     answer: "[0,'2','3','5','5',0]",
      options: [
-       "Method overloading",
-       "Method overriding",
-       "Constructor overriding",
-       "Both A and B"
+       "023450",
+       "[0,'2','3','5','5',0]",
+       "(0,'2','3','5','5',0)",
+       "Error"
      ]
    },
   {
      numb: 9,
-     question: "The subclass constructor uses the ———keyword to invoke the constructor of the superclass",
-     answer: "Super",
+     question: "     Tu = tuple('Pepsi')           aa, bb, cc, dd, ee = Tu           bb = cc = '*'          Tu = (aa, bb, cc, dd, ee)           print(Tu)",
+     answer: "('P','*','*','s','i')",
      options: [
-       "Super",
-       "Final",
-       "Static",
-       "Public"
+       "('p','*','*','s','i')",
+       "('P','*','*','s','i')",
+       "Pepsi",
+       "Error"
      ]
    },
    {
      numb: 10,
-     question: "Which of the following is a correct way to create an object of class Test? ",
-     answer: "Test t=new Test();",
+     question: "Tuple = (3, False, True, 8.12, 1.111, True)      value = 0         for z in Tuple:               value += int(z)           print(value)",
+     answer: "13",
      options: [
-       "Test t=new Test();",
-       "Test t=new Test;",
-       "t=new Test();",
-       "new Test t;"
+       "13",
+       "13.231",
+       "Error",
+       "9"
      ]
    },
-  
-
-  
-
-
-
-
-
-
-
 ];

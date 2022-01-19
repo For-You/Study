@@ -1,124 +1,114 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
-  {
-  numb: 1,
-  question: "Who is the father of C language?",
-  answer: "Dennis Ritchie",
-  options: [
-    "Steve Jobs",
-    "James Gosling",
-    "Dennis Ritchie",
-    "Rasmus Lerdorf"
-  ]
-},
-  {
-  numb: 2,
-  question: "Which of the following is not a valid C variable name?",
-  answer: "int $main;",
-  options: [
-    "int number;",
-    "float rate;",
-    "int variable_count;",
-    "int $main;"
-  ]
-},
-  {
-  numb: 3,
-  question:"All keywords in C are in ____________",
-  answer: "LowerCase letters",
-  options: [
-    "UpperCase letters",
-    "LowerCase letters",
-    "CamelCase letters",
-    "None of the mentioned"
+    {
+    numb: 1,
+    question: " When dealing with identifiers is python case sensitive?",
+    answer: "Yes",
+    options: [
+      "Yes",
+      "No",
+      "Machine independent",
+      "In some cases"
     ]
-    
-},
+  },
+    {
+    numb: 2,
+    question: "What will the format() function return?",
+    answer: "String",
+    options: [
+      "Int",
+      "Float",
+      "Char",
+      "String"
+    ]
+  },
+    {
+    numb: 3,
+    question: "In python programming,what is the maximum possible length of an identifier?",
+    answer : "None of these",
+    options: [
+      "32",
+      "64",
+      "128",
+      "None of these"
+      ]
+      
+  },
+    {
+    numb: 4,
+    question: "Python was released in?",
+    answer: "February 1991",
+    options: [
+      "February 1991",
+      "December 1991",
+      "December 1989",
+      "February 1989"
+    ]
+  },
+    {
+    numb: 5,
+    question: "Python is:",
+    answer: "Interpreted Language",
+    options: [
+      "Interpreted Language",
+      "Compiled Language",
+      "Binary Language",
+      "Static Language"
+    ]
+  },
+   {
+     numb: 6,
+     question: "Python is a ______ typed language:",
+     answer: "Strongly and Dynamically",
+     options: [
+       "Strongly and Dynamically",
+       "Weak and Dynamic",
+       "Strong and Static",
+       "Weak and Static"
+     ]
+   },
+    {
+     numb: 7,
+     question: "Which of the following is not an implementation of python?",
+     answer: "FPython",
+     options: [
+       "Iron Python",
+       "CPython",
+       "FPython",
+       "Stackless Python"
+     ]
+   },
+   {
+     numb: 8,
+     question: "How character data type is specified in Python",
+     answer: "No Character data type in python",
+     options: [
+       "No Character data type in python",
+       "Character",
+       "char",
+       "char()"
+     ]
+   },
   {
-  numb: 4,
-  question: "Which of the following is true for variable names in C?",
-  answer: "Variable names cannot start with a digit",
-  options: [
-    "They can contain alphanumeric characters as well as special characters",
-    "It is not an error to declare a variable to be one of the keywords(like goto, static)",
-    "Variable names cannot start with a digit",
-    "Variable can be of any length"
-  ]
-},
-  {
-  numb: 5,
-  question: "Which is valid C expression?",
-  answer: "int my_num = 100000;",
-  options: [
-    "int my_num = 100,000;",
-    "int my_num = 100000;",
-    "int my num = 1000;",
-    "int $my_num = 10000;"
-  ]
-},
- {
-   numb: 6,
-   question: "Which of the following cannot be a variable name in C?",
-   answer: "volatile",
-   options: [
-     "volatile",
-     "true",
-     "friend",
-     "export"
-   ]
- },
-  {
-   numb: 7,
-   question: "What is short int in C programming?",
-   answer: "Short is the qualifier and int is the basic data type",
-   options: [
-     "The basic data type of C",
-     "Qualifier",
-     "Short is the qualifier and int is the basic data type",
-     "All of the mentioned"
-   ]
- },
- {
-   numb: 8,
-   question: "Which keyword is used to prevent any changes in the variable within a C program?",
-   answer: "const",
-   options: [
-     "immutable",
-     "mutable",
-     "const",
-     "volatile"
-   ]
- },
-{
-   numb: 9,
-   question: "What is the result of logical or relational expression in C?",
-   answer: "0 or 1",
-   options: [
-     "True or False",
-     "0 or 1",
-     "0 if an expression is false and any positive number if an expression is true",
-     "None of the mentioned "
-   ]
- },
- {
-   numb: 10,
-   question: "Which of the following typecasting is accepted by C language?",
-   answer: "Widening & Narrowing conversions",
-   options: [
-     "Widening conversions",
-     "Narrowing conversions",
-     "Widening & Narrowing conversions",
-     "None of the mentioned"
-   ]
- },
-
-
-
-
-
-
-
-
-
-
+     numb: 9,
+     question: "Which of the following is not a Data-type in python?",
+     answer: "enumerate",
+     options: [
+       "String",
+       "Integer",
+       "bool",
+       "enumerate"
+     ]
+   },
+   {
+     numb: 10,
+     question: "Predict the output of the python code:  a=4.5  b=2  print(a//b)",
+     answer: "2.0",
+     options: [
+       "2.0",
+       "2",
+       "2.25",
+       "2.3"
+     ]
+   },
 ];
